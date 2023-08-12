@@ -16,6 +16,7 @@
         function actualizarRGB(rojo, verde, azul){
             const colorRGB = `rgb(${rojo},${verde},${azul})`;
             fondo.style.background = colorRGB;
+            fondo.style.backgroundImage = `linear-gradient(315deg, ${colorRGB} 40%, #d3d3d3 190%)`;
         }
 
         // rojo

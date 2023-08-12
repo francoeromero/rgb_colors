@@ -10,6 +10,8 @@ body{
     align-items: center;
     text-align: center;
     background-color: rgb(23, 41, 56);
+    /* background-color: #5b6467; */
+    background-image: linear-gradient(315deg, #424242 0%, #d3d3d3 74%);
 }
 .name{
     font-family: sans-serif;
